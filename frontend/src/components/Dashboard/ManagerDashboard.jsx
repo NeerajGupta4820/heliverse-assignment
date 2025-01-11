@@ -7,7 +7,7 @@ import CreateDietChart from "../features/DietChart/CreateDietChart";
 import DeliveryList from "../features/Deliveries/DeliveryList";
 import PantryTaskManagement from "../features/Pantry/PantryTaskManagement";
 import TaskList from "../features/Pantry/TaskList";
-import ManagerSidebar from "../Sidebar/ManagerSidebar";
+import ManagerSidebar from "../Sidebar/Managersidebar";
 import CreatePantryStaff from "../features/Pantry/CreatePantryStaff";
 import { FaBars } from "react-icons/fa";
 
