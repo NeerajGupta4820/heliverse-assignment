@@ -1,9 +1,9 @@
 import express from 'express';
-import authRoutes from './routes/userRoutes';
-import patientRoutes from './routes/patientRoutes.js';
-import dietRoutes from './routes/dietRoutes.js';
-import pantryRoutes from './routes/pantryRoutes.js';
-import deliveryRoutes from './routes/deliveryRoutes.js';
+import authRoutes from './Routes/userRoutes';
+import patientRoutes from './Routes/patientRoutes.js';
+import dietRoutes from './Routes/dietRoutes.js';
+import pantryRoutes from './Routes/pantryRoutes.js';
+import deliveryRoutes from './Routes/deliveryRoutes.js';
 
 const router = express.Router();
 
