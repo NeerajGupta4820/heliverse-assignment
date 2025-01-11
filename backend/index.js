@@ -11,6 +11,11 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+// Default route for health check
+app.get('/', (req, res) => {
+  res.send('Backend is running! 🚀');
+});
+
 app.use('/api', routes);
 
 connectDB();
