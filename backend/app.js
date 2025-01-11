@@ -1,5 +1,5 @@
 import express from 'express';
-import authRoutes from './routes/userRoutes.js';
+import authRoutes from './routes/userRoutes';
 import patientRoutes from './routes/patientRoutes.js';
 import dietRoutes from './routes/dietRoutes.js';
 import pantryRoutes from './routes/pantryRoutes.js';
